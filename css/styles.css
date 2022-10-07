@@ -1,4 +1,56 @@
+:root {
+  --background-color-1: #ffffff;
+  --background-color-2: #2f303a;
+  --background-color-3: #f5f4fa;
+  --text-color-1: #757575;
+  --text-color-2: #ffffff;
+  --hover-and-button-color: #2196f3;
+}
+
 body {
   font-family: "Roboto", sans-serif;
   color: #212121;
+}
+
+.header {
+  background-color: var(--background-color-1);
+}
+
+.section-1 {
+  background-color: var(--background-color-2);
+  color: var(--text-color-2);
+  text-align: center;
+}
+
+.button {
+  background-color: var(--hover-and-button-color);
+  color: var(--text-color-2);
+}
+
+.section-3 {
+  text-align: center;
+}
+
+.section-4 {
+  background-color: var(--background-color-3);
+  text-align: center;
+}
+
+.footer {
+  background-color: var(--background-color-2);
+}
+
+.address {
+  color: var(--text-color-2);
+  font-style: normal;
+}
+
+.contacts {
+  color: var(--text-color-1);
+  text-decoration: none;
+  list-style: none;
+}
+
+.contacts:hover {
+  color: var(--hover-and-button-color);
 }

@@ -16,6 +16,37 @@ body {
   background-color: var(--background-color-1);
 }
 
+.studio-header {
+  color: var(--background-color-2);
+  text-decoration: none;
+  font-family: Raleway;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: 0.03em;
+  text-align: left;
+}
+
+.studio-footer {
+  color: var(--text-color-2);
+  text-decoration: none;
+  font-family: Raleway;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: 0.03em;
+  text-align: left;
+}
+
+.link {
+  color: var(--background-color-2);
+  text-decoration: none;
+}
+
+.web {
+  color: var(--hover-and-button-color);
+}
+
 .section-1 {
   background-color: var(--background-color-2);
   color: var(--text-color-2);
@@ -48,9 +79,12 @@ body {
 .contacts {
   color: var(--text-color-1);
   text-decoration: none;
-  list-style: none;
 }
 
 .contacts:hover {
   color: var(--hover-and-button-color);
+}
+
+.list {
+  list-style: none;
 }

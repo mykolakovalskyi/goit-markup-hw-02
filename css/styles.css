@@ -41,10 +41,7 @@ body {
   text-align: left;
 }
 
-.navigation-link:hover {
-  color: var(--hover-and-button-color);
-}
-
+.navigation-link:hover,
 .navigation-link:focus {
   color: var(--hover-and-button-color);
 }
@@ -59,10 +56,7 @@ body {
   text-align: left;
 }
 
-.contacts-header:hover {
-  color: var(--hover-and-button-color);
-}
-
+.contacts-header:hover,
 .contacts-header:focus {
   color: var(--hover-and-button-color);
 }
@@ -99,11 +93,7 @@ body {
   cursor: pointer;
 }
 
-.main-button:hover {
-  background-color: var(--hover-and-button-color);
-  color: var(--text-color-2);
-}
-
+.main-button:hover,
 .main-button:focus {
   background-color: var(--hover-and-button-color);
   color: var(--text-color-2);
@@ -188,10 +178,7 @@ body {
   text-decoration: none;
 }
 
-.contacts-footer:hover {
-  color: var(--hover-and-button-color);
-}
-
+.contacts-footer:hover,
 .contacts-footer:focus {
   color: var(--hover-and-button-color);
 }
@@ -212,11 +199,7 @@ body {
   cursor: pointer;
 }
 
-.filter:hover {
-  background-color: var(--hover-and-button-color);
-  color: var(--text-color-2);
-}
-
+.filter:hover,
 .filter:focus {
   background-color: var(--hover-and-button-color);
   color: var(--text-color-2);

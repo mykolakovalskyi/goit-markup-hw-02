@@ -196,6 +196,10 @@ body {
   color: var(--hover-and-button-color);
 }
 
+.portfolio-section-box {
+  background-color: var(--background-color-1);
+}
+
 .filter {
   background-color: var(--background-color-3);
   color: inherit;

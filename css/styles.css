@@ -12,7 +12,7 @@ body {
   color: #212121;
 }
 
-.header {
+.header-box {
   background-color: var(--background-color-1);
 }
 
@@ -31,7 +31,7 @@ body {
   color: var(--hover-and-button-color);
 }
 
-.link {
+.navigation-link {
   color: var(--background-color-2);
   text-decoration: none;
   font-size: 14px;
@@ -41,11 +41,11 @@ body {
   text-align: left;
 }
 
-.link:hover {
+.navigation-link:hover {
   color: var(--hover-and-button-color);
 }
 
-.link:focus {
+.navigation-link:focus {
   color: var(--hover-and-button-color);
 }
 
@@ -75,7 +75,7 @@ body {
   display: none;
 }
 
-.section-1 {
+.section-1-box {
   background-color: var(--background-color-2);
 }
 
@@ -87,7 +87,7 @@ body {
   text-align: center;
 }
 
-.button {
+.main-button {
   background-color: var(--background-color-3);
   color: inherit;
   font-size: 16px;
@@ -99,21 +99,21 @@ body {
   cursor: pointer;
 }
 
-.button:hover {
+.main-button:hover {
   background-color: var(--hover-and-button-color);
   color: var(--text-color-2);
 }
 
-.button:focus {
+.main-button:focus {
   background-color: var(--hover-and-button-color);
   color: var(--text-color-2);
 }
 
-.section-2 {
+.section-2-box {
   background-color: var(--background-color-1);
 }
 
-.h3 {
+.smaller-title {
   font-size: 14px;
   line-height: 100%;
   letter-spacing: 0.03em;
@@ -128,18 +128,18 @@ body {
   text-align: left;
 }
 
-.h2 {
+.bigger-title {
   font-size: 36px;
   line-height: 100%;
   letter-spacing: 0.03em;
   text-align: center;
 }
 
-.section-3 {
+.section-3-box {
   background-color: var(--background-color-1);
 }
 
-.section-4 {
+.section-4-box {
   background-color: var(--background-color-3);
 }
 
@@ -159,7 +159,7 @@ body {
   text-align: center;
 }
 
-.footer {
+.footer-box {
   background-color: var(--background-color-2);
 }
 
@@ -174,7 +174,7 @@ body {
   text-align: left;
 }
 
-.address {
+.address-text {
   color: var(--text-color-2);
   font-style: normal;
   font-size: 14px;
